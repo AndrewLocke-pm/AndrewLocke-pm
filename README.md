@@ -71,6 +71,6 @@ Upload a PDF or image and get structured price data extracted automatically. AI 
 
 ## Got a problem worth solving?
 
-- 🤝 [Connect on LinkedIn](https://linkedin.com/in/andrewlocke-pm)
+- 🤝 [Connect on LinkedIn](https://www.linkedin.com/in/andrew-b-locke/)
 - 💼 [Work with Sabrulo](https://www.sabrulo.com)
 - 🛠️ Open to collaborating on interesting builds — raise an issue or drop me a message
