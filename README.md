@@ -10,11 +10,11 @@ This GitHub is a collection of real systems — not ideas:
 
 Each project exists to solve a real problem and advance a specific learning:
 
-- **BookkeepGenie** → building trustworthy AI with multi-layer enforcement and automated evals
+- **Echo** → grounded RAG over your own memory, with row-level security tested end to end
+- **BookkeepGenie** → trustworthy AI with multi-layer enforcement and automated evals
 - **Transcript Insights** → a reusable voice → structured-insight engine with schema-configurable extraction
 - **StrikeCRM** → Transcript Insights applied to CRM: LLM extraction and deal state machines
 - **ShopMyHome** → vision → structured product listings with commerce integration
-- **AndrewOS** → context assembly, memory compression, and structured AI reasoning
 
 I run [Sabrulo](https://www.sabrulo.com/) — my independent AI product & strategy practice.
 I've worked with organisations like the Michael & Susan Dell Foundation, Sand Technologies, and Olarm on data and AI-driven products.
@@ -26,9 +26,13 @@ I don't optimise for perfect plans. If a problem is worth solving, I'd rather ha
 
 ## What I build with
 
-`TypeScript` · `React` · `Node / Express` · `PostgreSQL` · `Drizzle` · `OpenAI` · `Anthropic Claude` · `Whisper` · `Supabase` · `Clerk`
+`TypeScript` · `React` · `Node / Express` · `PostgreSQL` · `pgvector` · `Drizzle` · `OpenAI` · `Anthropic Claude` · `Whisper` · `Supabase` · `Clerk`
 
 ## Projects
+
+### 🔊 [Echo](https://github.com/AndrewLocke-pm/echo)
+A private journal and knowledge base with AI memory. Entries are extracted, chunked, and embedded (pgvector); **Ask** answers questions grounded in your own data via hybrid retrieval — semantic + full-text + approved memories — with cited sources and a no-fabrication rule. Row-level security on every table, verified by a tenant-isolation test.
+`RAG` `pgvector` `hybrid retrieval` `Supabase Edge Functions` `RLS` `TypeScript`
 
 ### 🎙️ [Transcript Insights](https://github.com/AndrewLocke-pm/TranscriptInsights-v2)
 Turns meeting audio into structured decisions, action items, risks, and user needs. A Whisper → Claude pipeline with per-request configurable extraction schemas and an eval harness (38/39, ~97%) that gates prompt and model changes. The reusable engine behind StrikeCRM.
@@ -45,10 +49,6 @@ A voice-to-data CRM demo built on the Transcript Insights v1.0 engine — turns 
 ### 📸 [ShopMyHome](https://github.com/AndrewLocke-pm/shopmyhome)
 Photograph a product, get AI-generated listing details, and publish straight to a Shopify store. Vision extraction → editable listing → one-tap publish. Built in 24 hours for a friend's thrifting & estate-sale business.
 `vision AI` `structured extraction` `Shopify` `commerce`
-
-### 🧠 [AndrewOS](https://github.com/AndrewLocke-pm/andrewos)
-A personal operating system (Goals → Initiatives → Challenges → Experiments) with an AI layer that turns your identity, a compressed memory of recent weeks, and active challenges into a specific weekly focus — not a generic to-do list.
-`context assembly` `memory compression` `AI planning` `TypeScript`
 
 ## Got a problem worth solving?
 
